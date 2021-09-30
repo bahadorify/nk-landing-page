@@ -1,0 +1,38 @@
+// Font family
+$font-fallback: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
+  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  "Helvetica", "Arial", sans-serif !default;
+$font-family-base: "NeutrifStudio", #{$font-fallback};
+
+// Font sizes
+$rootFontSize: 16px;
+$xxxs: 0.875rem; // 14px
+$xxs: 1.125rem; // 18px
+$xs: 1.25rem; // 20px
+$sm: 1.375rem; // 22px
+$md: 1.5rem; // 24px
+$lg: 1.875rem; // 30px
+$xl: 2.25rem; // 36px
+$xxl: 3.625rem; // 58px
+$xxxl: 4rem; // 64px
+
+// Colors
+$primary: #56e0ef;
+$secondary: #55f1bd;
+$info: #fafbfc;
+$grey: #415469;
+
+// Buttons
+.btn-secondary {
+  color: $primary !important;
+}
+
+// breakpoints
+$bp-xl: 1440px;
+$bp-lg: 1030px;
+$bp-md: 768px;
+$bp-sm: 425px;
+
+// sizes
+$width: 85%;
+$maxWidth: 1600px;

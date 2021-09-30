@@ -1,0 +1,36 @@
+---
+label: Simple Page
+hide_body: false
+fields:
+- type: text
+  name: seo_title
+  label: SEO Title
+  description: Page title, used for SEO
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+  default: now
+- type: textarea
+  name: description
+  label: Description
+  description: Post description, used for SEO
+  config:
+    wysiwyg: false
+    required: true
+  default: ''
+- type: text
+  name: keywords
+  label: Keywords
+  description: Comma separated keywords, used for SEO
+  config:
+    required: true
+- type: text
+  name: title
+  label: Title
+  description: Page title in h1
+  config:
+    required: true

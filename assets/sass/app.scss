@@ -1,0 +1,12 @@
+// Import local fonts
+@import "@/assets/sass/_fonts.scss";
+
+// Import Bootstrap variables and customizations
+@import "@/assets/sass/_variables.scss";
+
+//Import bootstrap & bootstrap-vue
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-vue/src/index.scss";
+
+//all other custom scss files or css should be added here
+@import "@/assets/sass/_style.scss";

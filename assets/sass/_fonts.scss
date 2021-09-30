@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'NeutrifStudio';
+	font-weight:  bold;
+	font-style : normal;
+	font-display: swap;
+	src        : url('../fonts/NeutrifStudio-ExtraBold.eot');
+	src        : url('../fonts/NeutrifStudio-ExtraBold.eot?#iefix') format('embedded-opentype'), 
+			 	url('../fonts/NeutrifStudio-ExtraBold.woff2') format('woff2'),
+				url('../fonts/NeutrifStudio-ExtraBold.woff') format('woff'), 
+			 	url('../fonts/NeutrifStudio-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NeutrifStudio';
+	font-style : normal;
+	font-weight: normal;
+	font-display: swap;
+	
+	src        : url('../fonts/NeutrifStudio-Regular.eot');
+	src        : url('../fonts/NeutrifStudio-Regular.eot?#iefix') format('embedded-opentype'), 
+				url('../fonts/NeutrifStudio-Regular.woff2') format('woff2'), 
+				url('../fonts/NeutrifStudio-Regular.woff') format('woff'), 
+				url('../fonts/NeutrifStudio-Regular.ttf') format('truetype');
+}
